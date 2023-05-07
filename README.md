@@ -29,6 +29,8 @@ This script allows you to run commands translated from plain text descriptions u
 
 Optionally, you can add this line to your `.zshrc` or `.bashrc` file to set the API key automatically when you open a new terminal session. You will be prompted to enter your key if it isn't set.
 
+5. Optionally, add it as an alias or move the script to a directory in your $PATH so it can be run from anywhere on your system
+
 ## Usage
 
 1. Run the script with a plain text description of what you want to do:
@@ -37,7 +39,7 @@ Optionally, you can add this line to your `.zshrc` or `.bashrc` file to set the 
 
 For example:
 
-./chatgpt_cmd.zsh "Create files named a.txt, b.txt,..., z.txt"
+``./chatgpt_cmd.zsh "Create files named a.txt, b.txt,..., z.txt"``
 
 
 2. The script will display the translated command.
